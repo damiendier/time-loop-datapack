@@ -32,6 +32,7 @@ Once installed correctly with the correct version of the mod
 
 # Known bugs:
 Teleportation across dimensions and dying doesn't work properly (These are bugs that come from the mod and they will be eventually fixed.)
+Players who use a cracked version will not have the correct skin
 
 # Not bugs:
 Items, projectiles and mobs are not looped
