@@ -11,6 +11,8 @@ that will repeat indefinitely
 
 It works in multiplayer or solo
 
+This DataPack is intended to be played in a single session !!!
+
 # how to install:
 you need "Motion Capture - Recording Player Movements" vertion 1.4-alpha-6
 
@@ -29,13 +31,14 @@ Once installed correctly with the correct version of the mod
 
 "/scoreboard objectives setdisplay sidebar timers" Can be used to show a the timer (Useful to see if it works)(The timer only runs after starting)
 
-
 # Known bugs:
 Teleportation across dimensions, disconnecting+reconnecting and dying doesn't work properly (These are bugs that come from the mod and they will be eventually fixed.)
 Players who use a cracked version will not have the correct skin
 
 # Not bugs:
 Items, projectiles and mobs are not looped
+
+after closing and reopening the server, loops are reset. I preferred not to do this but I chose to do this instead of degrading performance(I might be able to do it in the future)
 
 Unfortunately it's impossible for me to do this without duplicating them for each loop which would cause lag problems.
   
