@@ -10,4 +10,6 @@ execute if score loop timers >= loopTime settings at @a[scores={rejoin=1..}] run
 execute if score loop timers >= loopTime settings at @a[scores={rejoin=1..}] run mocap recording start @p
 execute if score loop timers >= loopTime settings run scoreboard players reset @a[scores={rejoin=1..}] rejoin
 
+execute if score loop timers = soundTime settings at @a run playsound minecraft:suspicious_noise master @p
 execute if score loop timers >= loopTime settings run scoreboard players set loop timers 0
+
