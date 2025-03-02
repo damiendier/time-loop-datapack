@@ -38,9 +38,9 @@ Players who use a cracked version will not have the correct skin
 # Not bugs:
 Items, projectiles and mobs are not looped
 
-after closing and reopening the server, loops are reset. I preferred not to do this but I chose to do this instead of degrading performance(I might be able to do it in the future)
-
 Unfortunately it's impossible for me to do this without duplicating them for each loop which would cause lag problems.
+
+after closing and reopening the server, loops are reset. I preferred not to do this but I chose to do this instead of degrading performance(I might be able to do it in the future)
   
 # need help:
 If you need help with anything you can contact me or someone in here : https://discord.gg/nzDETZhqur
