@@ -15,6 +15,7 @@ mocap settings recording assign_player_name true
 mocap settings playback play_entities @vehicles
 mocap settings recording entity_tracking_distance 1
 mocap settings recording on_death 2
+mocap settings recording start_instantly true
 gamerule playersSleepingPercentage 0
 gamerule announceAdvancements false
 
