@@ -19,5 +19,5 @@ mocap settings recording start_instantly true
 gamerule playersSleepingPercentage 0
 gamerule announceAdvancements false
 
-mocap recording stop _
-mocap recording discard _
+mocap recording stop _._._
+mocap recording discard _._._
