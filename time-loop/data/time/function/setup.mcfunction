@@ -17,5 +17,5 @@ mocap settings recording on_death 2
 mocap settings recording start_instantly true
 gamerule playersSleepingPercentage 0
 
-mocap recording stop _
-mocap recording discard _
+mocap recording stop _._._
+mocap recording discard _._._
