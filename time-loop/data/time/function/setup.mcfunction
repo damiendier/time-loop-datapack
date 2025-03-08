@@ -14,5 +14,5 @@ mocap settings playback play_entities @vehicles
 mocap settings recording entity_tracking_distance 1
 gamerule playersSleepingPercentage 0
 
-mocap recording stop _
-mocap recording discard _
+mocap recording stop _._._
+mocap recording discard _._._
