@@ -14,7 +14,7 @@ It works in multiplayer or solo
 This DataPack is intended to be played in a single session !!!
 
 # how to install:
-you need "Motion Capture - Recording Player Movements" vertion 1.4-alpha-6
+you need "Motion Capture - Recording Player Movements" vertion 1.4-alpha-7
 
 https://modrinth.com/mod/motion-capture/versions https://www.curseforge.com/minecraft/mc-mods/motion-capture-mod-mocap/files/all?page=1&pageSize=20&showAlphaFiles=show
 
@@ -32,7 +32,7 @@ Once installed correctly with the correct version of the mod
 "/scoreboard objectives setdisplay sidebar timers" Can be used to show a the timer (Useful to see if it works)(The timer only runs after starting)
 
 # Known bugs:
-Teleportation across dimensions, disconnecting+reconnecting and dying doesn't work properly (These are bugs that come from the mod and they will be eventually fixed.)
+Teleportation across dimensions and disconnecting+reconnecting (These are bugs that come from the mod and they will be eventually fixed.)
 Players who use a cracked version will not have the correct skin
 
 # Not bugs:
