@@ -14,7 +14,7 @@ It works in multiplayer or solo
 This DataPack is intended to be played in a single session !!!
 
 # how to install:
-you need "Motion Capture - Recording Player Movements" vertion 1.4-alpha-7
+you need "Motion Capture - Recording Player Movements" vertion 1.4-alpha-8
 
 https://modrinth.com/mod/motion-capture/versions https://www.curseforge.com/minecraft/mc-mods/motion-capture-mod-mocap/files/all?page=1&pageSize=20&showAlphaFiles=show
 
