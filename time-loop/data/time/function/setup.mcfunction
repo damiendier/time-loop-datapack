@@ -15,7 +15,9 @@ mocap settings playback play_entities @vehicles
 mocap settings recording entity_tracking_distance 1
 mocap settings recording on_death 2
 mocap settings recording start_instantly true
+mocap settings recording on_change_dimension split_recording
 gamerule playersSleepingPercentage 0
 
 mocap recording stop _._._
+
 mocap recording discard _._._
