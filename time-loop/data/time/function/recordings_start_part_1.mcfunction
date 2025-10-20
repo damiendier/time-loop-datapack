@@ -1,0 +1,2 @@
+execute store result storage recording_list index int 1 run scoreboard players get loop index
+$execute if data storage recording_list recording_list[$(index)] run function time:recordings_start_part_2 with storage recording_list
