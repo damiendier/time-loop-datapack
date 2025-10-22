@@ -9,5 +9,8 @@ kill @a
 gamerule doImmediateRespawn false
 gamerule showDeathMessages true
 
-execute at @a run mocap recording start @p
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["mc"], Fixed:1b, Invulnerable:1b, Invisible:1b}
+execute as @e[tag=mc, limit=1] at @a run mocap recording start @p
+kill @e[type=armor_stand,tag=mc, limit=1]
+
 tag @a[tag=!init] add init
