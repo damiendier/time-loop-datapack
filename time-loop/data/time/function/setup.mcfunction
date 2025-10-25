@@ -24,6 +24,7 @@ mocap settings recording on_death continue_synced
 mocap settings recording start_instantly true
 mocap settings recording on_change_dimension split_recording
 mocap settings advanced experimental_release_warning false
+mocap settings advanced use_creative_game_mode true
 gamerule playersSleepingPercentage 0
 gamerule announceAdvancements false
 gamerule locatorBar false
