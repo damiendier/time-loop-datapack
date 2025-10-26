@@ -8,11 +8,16 @@ scoreboard objectives add rejoin minecraft.custom:minecraft.leave_game
 
 scoreboard objectives add settings dummy
 scoreboard players set loopTime settings 6000
+scoreboard players set doreconnect settings 0
 
 scoreboard objectives add magic_number dummy
 scoreboard objectives add currentdimention dummy
 scoreboard objectives add lastdimention dummy
 scoreboard objectives add index dummy
+scoreboard objectives add temp dummy
+scoreboard objectives add maxloop dummy
+scoreboard objectives add reconnectflag dummy
+scoreboard players set loop maxloop 2
 
 mocap settings playback start_as_recorded true
 mocap settings recording assign_player_name true
