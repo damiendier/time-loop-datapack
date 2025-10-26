@@ -1,2 +1,0 @@
-function time:name_lib/calculation/summon_item_frame
-function time:name_lib/calculation/get_player_name
