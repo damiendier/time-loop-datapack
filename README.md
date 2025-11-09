@@ -29,7 +29,7 @@ Once installed correctly with the correct version of the mod
 
 "/scoreboard players set loopTime settings 1000" Can be used to change loop length (in ticks) the default is 6000 which corresponds to 5 minutes
 
-"/scoreboard players set doreconnect settings 1" Can be used to enable automatic reconnect bug fixing(Warning: this is very data intensive; if the server is slow or a player has a poor connection, they risk being disconnected. This is especially a problem with small loops.)
+"/scoreboard players set doreconnect settings 1" Can be used to enable automatic reconnect bug fixing (Warning: this is very data intensive; if the server is slow or a player has a poor connection, they risk being disconnected. This is especially a problem with small loops.)
 
 "/scoreboard objectives setdisplay sidebar timers" Can be used to show a the timer (Useful to see if it works)(The timer only runs after starting)
 
@@ -39,6 +39,13 @@ Players who log in or log back in after the loop starts will not see the fake pl
 Warning: this is very data intensive; if the server is slow or a player has a poor connection, they risk being disconnected. This is especially a problem with small loops.
 
 Players who use a cracked version will not have the correct skin
+
+A fake player who touches the End portal in the End will disappear, but their actions will still be executed.
+
+A player will be taken out of the loop if they enter the End portal in the End. 
+(The loops continue to run, but their actions will no longer be reset, and the fake player will never come out on the other side after entering the portal)
+
+You can imagine that this is your reward for beating the game if you want.
 
 # Not bugs:
 Items, projectiles and mobs are not looped
