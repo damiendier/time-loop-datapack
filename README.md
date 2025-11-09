@@ -14,9 +14,9 @@ It works in multiplayer or solo
 This DataPack is intended to be played in a single session !!!
 
 # how to install:
-you need "Motion Capture - Recording Player Movements" vertion 1.4-alpha-8
+you need "Motion Capture - Recording Player Movements" vertion 1.4-alpha-9
 
-https://modrinth.com/mod/motion-capture/versions https://www.curseforge.com/minecraft/mc-mods/motion-capture-mod-mocap/files/all?page=1&pageSize=20&showAlphaFiles=show
+https://modrinth.com/mod/motion-capture/versions?c=alpha&g=1.21.10 https://www.curseforge.com/minecraft/mc-mods/motion-capture-mod-mocap/files/all?page=1&pageSize=20&version=1.21.10&showAlphaFiles=show
 
 If you don't know how to install mods or datapacks search for how on the Internet
 
@@ -29,11 +29,23 @@ Once installed correctly with the correct version of the mod
 
 "/scoreboard players set loopTime settings 1000" Can be used to change loop length (in ticks) the default is 6000 which corresponds to 5 minutes
 
+"/scoreboard players set doreconnect settings 1" Can be used to enable automatic reconnect bug fixing (Warning: this is very data intensive; if the server is slow or a player has a poor connection, they risk being disconnected. This is especially a problem with small loops.)
+
 "/scoreboard objectives setdisplay sidebar timers" Can be used to show a the timer (Useful to see if it works)(The timer only runs after starting)
 
 # Known bugs:
-Teleportation across dimensions and disconnecting+reconnecting (These are bugs that come from the mod and they will be eventually fixed.)
+Players who log in or log back in after the loop starts will not see the fake players (This can be fixed automatically in the next loop if doreconnect settings is set to 1)
+
+Warning: this is very data intensive; if the server is slow or a player has a poor connection, they risk being disconnected. This is especially a problem with small loops.
+
 Players who use a cracked version will not have the correct skin
+
+A fake player who touches the End portal in the End will disappear, but their actions will still be executed.
+
+A player will be taken out of the loop if they enter the End portal in the End. 
+(The loops continue to run, but their actions will no longer be reset, and the fake player will never come out on the other side after entering the portal)
+
+You can imagine that this is your reward for beating the game if you want.
 
 # Not bugs:
 Items, projectiles and mobs are not looped
